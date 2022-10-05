@@ -1,0 +1,4 @@
+QUESTION: What is the value of the content-type response header?
+
+ANSWER: curl https://jsonplaceholder.typicode.com/posts/1/comments -v
+       Content-Type: application/json; charset=utf-8
